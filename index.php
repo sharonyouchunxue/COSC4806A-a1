@@ -1,8 +1,10 @@
 <html>
   <head>
-    <title>PHP Test</title>
+    <title>Sharon You</title>
   </head>
   <body>
-    <?php echo '<p>Hello World</p>'; ?> 
-
+    <h1>Assignment 1 </h1>
+    <p><a href="/login.php">Please click here to login</a></p>
+    
+  </body>
 </html>
