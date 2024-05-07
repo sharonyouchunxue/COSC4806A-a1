@@ -1,7 +1,7 @@
-- Assignment 1
-Create a GitHub account
+# Assignment 1
+## Create a GitHub account
 
-Create a Replit account
+## Create a Replit account
 
 Connect them!
 
