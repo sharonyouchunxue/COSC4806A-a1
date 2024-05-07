@@ -22,7 +22,8 @@
    }
 
    //redirect to login.php page
-   echo "This is unsuccessful attempt number: " . $_SESSION['failed_attempts'];
+   // echo "This is unsuccessful attempt number: " . $_SESSION['failed_attempts'];
+   header('Location: /login.php?error=invalid&failed_attempts=' . $_SESSION['failed_attempts']);
  }
 
 ?>

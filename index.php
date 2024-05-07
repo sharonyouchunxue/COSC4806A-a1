@@ -3,6 +3,10 @@
 
 //check if user is authenticated
 //If not, send them to login.php... heaer()..
+if(!isset($_SESSION['authenticated'])) {
+  header('Location: /login.php');
+}
+
 ?>
 
 <!DOCTYPE html>
