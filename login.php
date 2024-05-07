@@ -1,3 +1,10 @@
+<?php
+session_start();
+
+//check if user is athenticated
+//if not, sent to login.php... header()...
+
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,6 +12,7 @@
   </head>
   <body>
     <h1>Login Form</h1>
+    
     <form action="/validate.php" method="post">
       <label for="username">Username:</label><br>
       <input type="text" id="username" name="username"><br>
